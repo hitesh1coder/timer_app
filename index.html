@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="main">
+       
+     <h2>Set Timer</h2>
+        <div class="input">
+            <input type="number" max="1" min="0" maxlength="1" id="hour" value="00" > :
+            <input type="number" max="59" min="0" maxlength="59" id="min" value="00" > :
+            <input type="number" max="59" min="0" maxlength="59" id="sec" value="00">  
+        </div>
+        <div class="buttons">
+            <button id="start" onclick="startTime()" >Start </button>
+            <button id="stop" onclick="stopTimer()">Stop </button>
+            <button id="reset" onclick="resetTime()">Reset </button>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</body>
+</html>
